@@ -224,7 +224,7 @@ module.exports = function()
 
                         reject({
                             'error': 'device_unavailable',
-                            'message': 'Xbox is unavalable on '+ip
+                            'message': 'Xbox is unavailable on '+ip
                         })
                     }
                 }.bind(this), function(error){
